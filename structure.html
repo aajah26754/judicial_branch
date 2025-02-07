@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Court Sytem Structure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            background: #444;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            display: inline;
+            padding: 15px;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .preview {
+            display: none;
+            position: absolute;
+            background: white;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 100;
+        }
+
+        nav ul li:hover .preview {
+            display: block;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>US Court Sytem Structure</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="homepage.html">Go Back to Homepage</a>
+                <div class="preview">Go back to the homepage</div>
+            </li>
+            <li>
+                <a href="powers.html">Judicial Branch Powers</a>
+                <div class="preview">Learn about the different Judicial Branch powers</div>
+            </li>
+            <li>
+                <a href="appointment.html">Appointment Process</a>
+                <div class="preview">Learn about how judges get appointed</div>
+            </li>
+            <li>
+                <a href="cases.html">Different Cases</a>
+                <div class="preview">Learn about cases that impacted the US and different cases from the Supreme Court
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>State Court System</h2>
+            <p>
+            <ul>
+                <li><b>State Supreme Court</b></li>
+                <li>The highest court in a state</li>
+                <li>Reviews appeal from lower state courts</li>
+                <li>Decisions are final unless a federal issue is involved</li>
+            </ul>
+            <ul>
+                <li><b>Intermediate Appellate Courts</b></li>
+                <li>Recieves appeals from trial courts</li>
+                <li>Not all states have these courts</li>
+            </ul>
+            <ul>
+                <li><b>Trial Courts</b></li>
+                <li>Handles most cases, including criminal, civil, family, and probate matters</li>
+                <li>Divided into different courts (famiy, small claims, etc.) </li>
+            </ul>
+            </p>
+        </section>
+
+        <section>
+            <h2>Federal Court System</h2>
+            <p>
+            <ul>
+                <li><b>US Supreme Court</b></li>
+                <li>The highest court in the US</li>
+                <li>Has the final say on constitutional and federal law issues</li>
+                <li>Reviews cases from federal appellate and state supreme courts</li>
+            </ul>
+            <ul>
+                <li><b>US Courts of Appeals (Circuit Courts)</b></li>
+                <li>13 circuits: 12 regional circuits + 1 Federal Circuit</li>
+                <li>Has the final say on constitutional and federal law issues</li>
+            </ul>
+            <ul>
+                <li><b>US Supreme Court</b></li>
+                <li>The highest court in the US</li>
+                <li>Has the final say on constitutional and federal law issues</li>
+            </ul>
+            </p>
+        </section>
+
+        <section>
+            <h2>Court System Chart</h2>
+
+            <img src="structure.png" alt="structure">
+        </section>
+
+        <section>
+            <h2>Citations</h2>
+            <p>Democracy Docket. (2022, February 10). The U.S. Court System Explained. Democracy Docket.
+                https://www.democracydocket.com/analysis/the-u-s-court-system-explained/</p>
+        </section>
+
+    </main>
+</body>
+
+</html>
